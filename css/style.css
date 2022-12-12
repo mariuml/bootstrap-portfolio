@@ -50,23 +50,23 @@
 /* Skills section styling */
 
 .skills {
-    border: solid 2px black;
+    border: solid 2px var(--theme-color-2);
 }
 
 /* Work portfolio */
 
 .work-heading {
-    border: solid 2px black;
+  border: solid 2px var(--theme-color-2);
 }
 
 
 .project {
-    border: solid 2px black;
+  border: solid 2px var(--theme-color-2);
 }
 
 
 /* Footer */
 
 .footer {
-    border: solid 2px black;
+    border: solid 2px var(--theme-color-2);
 }
