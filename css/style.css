@@ -68,5 +68,39 @@
 /* Footer */
 
 .footer {
+  display: flex;
+  justify-content: space-evenly;
     border: solid 2px var(--theme-color-2);
+    padding: 2.5%;
+}
+
+a:link {
+  text-decoration: none !important;
+ }
+
+button {
+  white-space: nowrap;
+  align-items: center;
+  background-color: #ffdeda;
+  border: 1px solid var(--theme-color-2);
+  border-radius: 50px;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
+
+button:hover {
+ text-decoration: none;
+ box-shadow: 5px 5px 4px var(--theme-color-1);
 }
