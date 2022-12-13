@@ -33,35 +33,57 @@
 
 #hero-image {
     grid-area: hero-image;
-    height: 475px;
-    width: 600px;
+    height: 300px;
+    width: 400px;
     align-self: center;
     justify-self: center;
     padding-top: 10px;
   
   }
 
+  .jumbotron {
+    height: 400px;
+  }
 
+ #hero-headline {
+  align-self: center;
+  justify-self: center;
+  font-size: 200%;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--theme-color-1);
+ }
+ 
+/* Heading styling */
 
-  /* Main project section */
-
-
-
-/* Skills section styling */
-
-.skills {
-    border: solid 2px var(--theme-color-2);
+.section-heading {
+  align-self: center;
+  justify-self: center;
+  font-size: 200%;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--theme-color-1);
+  padding: 2%;
+  
 }
 
-/* Work portfolio section styling */
+/*  Work section styling */
 
-.work-heading {
-  border: solid 2px var(--theme-color-2);
+h2 {
+  padding: 4%;
 }
+
+.small-project {
+  height: 500px;
+  width: 500px;
+}
+
+
+
+/* Image hover effects */
+
 
 
 .project {
-  border: solid 2px var(--theme-color-2);
+
   opacity: 0.8;
   
 }
@@ -79,7 +101,6 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
-    border: solid 2px var(--theme-color-2);
     padding: 2.5%;
 }
 
